@@ -1,0 +1,325 @@
+.row{
+   display: block;
+    /* display: flex; */
+    right: 0;
+    margin: auto;
+    width: 630px;
+   
+   /* background-image: url("e7f3ef9c2b3953b4a21a2fec87390131.jpg");*/
+    background-size: flex;
+    background-size:cover;
+    
+    background-repeat: no-repeat ;
+
+}   
+.row:after{
+    content:"";
+    clear: both;
+    display: table;
+   
+}
+
+.flip-card{
+   
+    width: 200px;
+    height: 230px;
+    perspective: 1000px;
+    float: left;
+    padding: 5px;
+}
+
+.flip-card-inner{
+  
+    position: relative;
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+
+
+.flip-card-front, .flip-card-back{
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.flip-card-front:hover{
+    transform: scale(1.15);
+    
+}
+.flip-card-front{
+    background-image: url("astronomy-1867616__340.jpg");
+    background-size:cover;
+    background-repeat: no-repeat ;
+   
+}
+
+.flip-card-back{
+    background-image: url("astronomy-1867616__340.jpg");
+    color:yellow;
+    transform: rotateY(180deg);
+    background-size:cover;
+    
+    background-repeat: no-repeat ;
+}
+
+
+
+.topnav{
+    overflow:hidden;
+    background-image: url("milky-way-2750627_1280.jpg") ;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-size:cover;
+    background-repeat: no-repeat ;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    position: absolute ;
+    
+
+}
+
+.topnav a{
+    float: left;
+    color:white ;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    
+    overflow: hidden;
+}
+.a1:hover{
+    background-color: black;
+    color: red;
+}
+
+.a2:hover{
+    background-color: black;
+    color: dodgerblue;
+}
+
+.a3:hover{
+    background-color: black;
+    color: rgb(2, 143, 49);
+}
+
+.a4:hover{
+    background-color: black;
+    color: purple;
+}
+
+.a5:hover{
+    background-color: black;
+    color: rgb(224, 224, 0);
+}
+
+.a6:hover{
+    background-color:black ;
+    color: pink;
+}
+/*a:hover{
+    background-color: black;
+    color: red;
+}*/
+
+.topnav a.active{
+    background-image: url("maxresdefault\ \(1\).jpg");
+    color: whitesmoke;
+    background-size:cover;
+    
+    background-repeat: no-repeat ;
+}
+
+header{
+    margin-top: 5%;
+    
+}
+
+.container{
+    position: fixed;
+    bottom: 0px;
+    right: 0;
+    width: 200px;
+    
+    
+}
+
+.question{
+    
+    right: 0cm;
+    position: fixed;
+    bottom: 0cm;
+    border-style: solid;
+    border-color: red;
+    
+    
+}
+
+.question:hover{
+    background-color: lemonchiffon;
+}
+
+#box{
+    width: 200px;
+    bottom: 0cm;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    right: 90px;
+    border-style: solid;
+    display: none;
+    
+}
+
+.ending{
+    font-size: 1.5cm;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("970fbd77d968d5b8185b0fcedc05a66f.jpg") ;
+    -webkit-background-clip: text;
+    animation: animate 30s linear infinite;
+   
+    
+    
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        background-position:0% -50%;
+    }
+    100%{
+        background-position:100% -50%  ;
+    }
+}
+   
+
+
+
+.tienich{
+    float: left;
+    width: 600px;
+    height: 575px;
+ 
+}
+
+.chonmon{
+    margin-left: 600px;
+    
+    height: 575px;
+   
+    overflow: hidden;
+    background-size:cover;
+    
+    background-repeat: no-repeat ;
+}
+
+.center{
+    text-align: center;
+}
+
+body{
+    background-image: url("e7f3ef9c2b3953b4a21a2fec87390131.jpg");
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    
+}
+.open{
+    font-size: 1.5cm;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("970fbd77d968d5b8185b0fcedc05a66f.jpg");
+    -webkit-background-clip: text;
+    animation: universe 30s linear infinite;
+   
+}
+
+@keyframes universe{
+   /* 0%
+    {
+        background-position: 0% -50%;
+    }
+    100%
+    {
+        background-position: 100% -50%;
+    }
+
+  
+    from{
+        background-position-x: 400px;
+        background-position-y: 400px;
+    }
+    to{
+        background-position-y: 0em;
+    }*/
+    
+    from{
+        background-position-x: 100%;
+        
+    }
+    to{
+        background-position-y: 100%;
+    }
+}
+
+.font{
+    font-size: 1.5cm;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Space-universe-nebula-star-light-ipad-pro-wallpaper-ilikewallpaper_com.jpg");
+    -webkit-background-clip: text;
+    animation: chu 30s linear infinite;
+   
+}
+
+@keyframes chu{
+    from{
+       
+        background-position-x: 50%;
+        background-position-y:50% ;
+    }
+    to{
+        background-position-x: 50%;
+        background-position-y:50% ;
+    }
+
+}
+
+.font1{
+    font-size: 0.4cm;
+    text-transform: uppercase;
+    color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("Space-universe-nebula-star-light-ipad-pro-wallpaper-ilikewallpaper_com.jpg");
+    -webkit-background-clip: text;
+    animation: chu 30s linear infinite;
+   
+}
+.a7:hover{
+    background-color: black;
+    color: #FFA500;
+
+}
+.a8:hover{
+    background-color: black;
+    color: #A9A9A9;
+
+}
+
+

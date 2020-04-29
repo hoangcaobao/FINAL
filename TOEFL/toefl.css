@@ -1,0 +1,131 @@
+.topnav{
+    overflow:hidden;
+    background-color: white ;
+    top: 0;
+    
+    
+    /* margin: auto; */
+    overflow:hidden;
+    
+    left: 0;
+    right: 0;
+    background-size:cover;
+    background-repeat: no-repeat ;
+    display:grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+    position: absolute ;
+   
+}
+
+.topnav a{
+    
+    float:  left;
+    color :purple;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    border-style: solid;
+    border-color: black;
+    
+    overflow: hidden;
+}
+
+
+article{
+    padding-left: 20%;
+    margin-top:5%;
+    padding-right: 20%;
+    
+}
+.topnav a.active{
+    background-color:purple;
+    color: rgb(0, 0, 0);
+   
+    
+    
+}
+
+article h1{
+    font-size: 27px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color: purple;
+}
+
+article p{
+    font-size: 18px; 
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.a1:hover{
+    background-color: black;
+    color: red;
+}
+
+.a2:hover{
+    background-color: black;
+    color: dodgerblue;
+}
+
+.a3:hover{
+    background-color: black;
+    color: rgb(2, 143, 49);
+}
+
+.a4:hover{
+    background-color: black;
+    color: purple;
+}
+
+.a5:hover{
+    background-color: black;
+    color: rgb(224, 224, 0);
+}
+
+.a6:hover{
+    background-color:black ;
+    color: pink;
+}
+
+.a:hover{
+    background-image: url("maxresdefault\ \(1\).jpg");
+    color: whitesmoke;
+    background-size:cover;
+    
+    background-repeat: no-repeat ;
+}
+
+body{
+    background-image: url("purple.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer{
+    /* height: 220px;
+    
+    top: 1000px;
+   
+    position: absolute;
+    left: 0;
+    right: 0; */
+    right: 0;
+    float: left; 
+    margin-left: 0em;
+    left: 0em;
+    position: absolute;
+    
+  
+  
+
+  
+   
+    background-image: url("../SAT/background-footer.jpg");
+    
+}
+.a8:hover{
+    background-color: black;
+    color: #A9A9A9;
+
+}
+
